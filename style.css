@@ -1,0 +1,350 @@
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+  
+}
+header{
+  width: 1344px;
+  height: 50px;
+  border: 2px solid red;
+}
+.goggle{
+  margin-left: 20px;
+  margin-top: 13px;
+}
+.Academy{
+  color: #4a4a4a;
+  font-size: 20px;
+  position: relative;
+  bottom: 6px;
+}
+.emailname{
+  position: absolute;
+  top: 28px;
+  right: 130px;
+}
+.email{
+  position: absolute;
+  top: 10px;
+  right: 80px;
+}
+.container{
+  /* width: 1000px; */
+  height: 60px;
+  background-color: #ff7700;
+  border: 2px solid #ff7700;
+  padding: 12px;
+  padding-top: 5px !important;
+}
+.these{
+  color: #ffffff;
+  font-size: 16px;
+  font-family:Roboto, sans-serif;
+  font-weight: bold;
+
+}
+.container2{
+  display: flex;
+  /* width: 1350px; */
+}
+.learn{
+  font-family: Roboto, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  /* width: 600px; */
+  margin-top: 60px;
+  margin-left: 130px;
+}
+h1{
+  font-size: 44px;
+  width: 550px;
+  font-weight: lighter;
+  line-height: 48.4px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.p{
+  margin-top: 30px;
+  font-size: 20px;
+  width: 550px;
+  font-weight: lighter;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.t{
+  background-image: url("google-analytics-website-traffic-business_640x480.jpg");
+  background-position: right;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  /* margin-left: 120px; */
+  /* margin-bottom: 130px; */
+  width: 1350px;
+}
+.traffic{
+  /* width: 400px; */
+  height: 400px;
+  margin-right: 10px;
+
+}
+.arrow{
+  /* width: 400px; */
+  /* width: auto; */
+  /* background-color: blue; */
+  border-radius: 25px;
+  font-size: 200px;
+  color: white;
+  margin-left: 10px
+}
+.container3{
+  width: auto;
+  height: 1100px;
+  background-color: blue;
+  border: 2px solid blue;
+  -webkit-font-smoothing: antialiased;
+}
+.flex2contain{
+  display: flex;
+  width: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 85px;
+  background-color: blue;
+}
+h2{
+  font-family:Roboto, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: start;
+  margin-top: 50px;
+  margin-left: 85px;
+  margin-bottom: 40px;
+  
+}
+.flex2item{
+  width: 270px;
+  height: 450px;
+  border: 1px solid black;
+  background-color: white;
+  color: white;
+  margin-right: 15px;
+  margin-left: 10px;
+  /* margin-bottom: 20px; */
+}
+.Beginners{
+  width: 250px;
+  padding-top: 12px;
+  font-family:Roboto, sans-serif;
+color: rgba(0, 0, 0, 0.87);
+font-size: 20px;
+font-weight: bold;
+line-height: 30px;
+margin-left: 15px;
+margin-bottom: 10px;
+}
+.features{
+  font-family:Roboto, sans-serif;
+color: rgba(0, 0, 0, 0.87);
+font-size: 16px;
+/* font-weight: ; */
+margin-top: 30px;
+padding-top: 12px;
+line-height: 25px;
+margin-left: 15px;
+}
+img{
+  margin-left: 15px;
+}
+.f1{
+  margin-left: 180px;
+  margin-top: 70px;
+}
+.f2{
+  margin-left: 180px;
+  margin-top: 100px;
+}
+.f3{
+  margin-left: 180px;
+  margin-top: 76px;
+}
+.f4{
+  margin-left: 180px;
+  margin-top: 29px; 
+}
+.f5{
+  margin-left: 180px;
+  margin-top: 130px; 
+}
+.f6{
+  margin-left: 180px;
+  margin-top: 105px; 
+}
+.container4{
+  margin-top: 100px;
+  width: 1350px;
+  height: 200px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+}
+/* button{
+  width: 100px;
+  height: 100px;
+  border-radius: 90px;
+  background-color: blue;
+  color: white;
+ position: absolute;
+ -webkit-font-smoothing: antialiased;
+scroll-behavior: smooth;
+ left: 0px;
+ padding: 5px; */
+}
+.flexrow{
+  display: flex;
+  flex-direction: column;
+  width: 1000;
+  height: 700px;
+  border: 1px solid black;
+  background-color: #e0edf3;
+  margin-left: 100px;
+  gap: 10px;
+}
+.flexrowitems{
+width: inherit;
+height: 200px;
+background-color: #f2f2f2;
+/* background-color: #f2f2f2; */
+border: 1px solid black;
+margin-bottom: 50px;
+}
+.d{
+  width: 600px;
+  /* border-top: 2px solid black; */
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.sp{
+  width: 1000px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  /* margin-top: 30px; */
+  font-size: 20px;
+  color: #000000de;
+  line-height: 27px;
+  padding: 5px;
+}
+.ig{
+height: 200px;
+width: 200px;
+position: relative;
+top: -43px;
+right: 10px;
+
+}
+.jus{
+  /* border-bottom: 1px solid black ; */
+  height: 40px;
+  margin-left: 250px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.meet{
+  font-family:Roboto, sans-serif;
+  color: #4a4a4a;
+font-weight: 400;
+font-size: 30px;
+}
+.on{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #272727;
+  font-family:Roboto, sans-serif;
+
+}
+.contain4{
+  margin-left: 30px;
+  font-family:Roboto, sans-serif;
+  color: #272727;
+}
+.for{
+  margin-left: 30px;
+  font-family:Roboto, sans-serif;
+  color: #272727;
+  line-height: 24px;
+  font-weight: 400;
+}
+.flexrow3a{
+  display: flex;
+  width: inherit;
+  margin-left: 150px;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 40px;
+background-color: #f2f2f2;
+
+}
+.flexrow3{
+  margin-top: 30px;
+  font-family:Roboto, sans-serif;
+  width: 220px;
+  height: 110px;
+  border: 1px solid  #e7e7e7;
+background-color: #f2f2f2;
+text-align: center;
+padding: 2px;
+flex-wrap: wrap;
+line-height: 20.8px;
+font-size: 16px;
+font-weight: 400;
+/* color: #f2f2f2; */
+}
+.flexrow4{
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+height: 100px;
+}
+.flexrow5{
+  margin-top: 30px;
+  font-family:Roboto, sans-serif;
+  width: 220px;
+  height: 100px;
+  border: 1px   #e7e7e7;
+background-color: #f2f2f2;
+text-align: center;
+padding: 2px;
+/* flex-wrap: wrap; */
+line-height: 20.8px;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-left: 60px;
+}
+.add{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: -10px;
+  position: relative;
+  top: -10px;
+  margin-left: 50px;
+}
+.contain6{
+  background-color: #f2f2f2;
+  height: 300px;
+  /* margin-top: 30px; */
+  /* margin-top: 20px; */
+}
+.footer1{
+  margin-left: 800px;
+  padding: 15px;
+  background-color: #f2f2f2;
+}
+.w{
+  color: #4a4a4a;
+  word-spacing: 5px;
+  letter-spacing: .01em;
+}
